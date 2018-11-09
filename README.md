@@ -1,18 +1,18 @@
-# SwiftBlue 
-Style Name: SwiftBlue
-Author: OryNider
+# subSilver 
+	Style name:		subSilver
+	Based on style:	subSilver Theme for phpBB2 by phpBB Group
+	Original author:	OryNider, using subsilver2 Theme as a base.	
+	This is an alternative subsilver2 style with default colors.
 
-Style Description: A purple-blue colors responsive design style for phpBB.
-
-This style is a conversion of SwiftBlue for phpBB 2.0.x.
+This style is a conversion of subSilver for phpBB 2.0.x.
 
 phpBB Version: 3.2.2
-Style Version: 3.2.4-RC
+Style Version: 3.2.2-Beta
 
 Screenshots:
 Image
 
-Style Download: https://github.com/orynider/SwiftBlue/releases
+Style Download: https://github.com/orynider/subSilver/releases
 
 License:
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
