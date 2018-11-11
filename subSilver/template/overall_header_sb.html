@@ -205,7 +205,7 @@ function marklist(id, name, state)
 					<tbody>
 					<tr class="bg1">
 						
-						<td class="table1 responsive-hide" style="text-align:center;" width="5%">&nbsp;&nbsp;</td>
+						<td class="table1 responsive-hide" style="text-align:center;" width="5%">&nbsp;&nbsp;</td>						
 						
 						<td class="table1 responsive-hide" align="center" valign="middle" width="15%">
 							<span class="responsive-hide">&nbsp;&nbsp;</span>
@@ -213,20 +213,20 @@ function marklist(id, name, state)
 						
 						<td class="table1 responsive-hide" align="right" valign="middle" width="15%">
 							<span class="pagetitle">&nbsp;&nbsp;{PAGE_TITLE}</span>
-						</td>	
+						</td>						
 						
 						<td class="table1" style="text-align:center;" valign="middle" width="60%">
-							<h1>{SITENAME}&nbsp;&nbsp;</h1>
-							<span class="gen">{SITE_DESCRIPTION}&nbsp;&nbsp;</span>
-						</td>	
+							<h1>{SITENAME}&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+							<span class="gen">{SITE_DESCRIPTION}&nbsp;&nbsp;&nbsp;&nbsp;</span>						
+						</td>						
 						
-						<td class="table1 responsive-hide" align="center" valign="middle" width="5%">&nbsp;</td>
+						<td class="table1 responsive-hide" align="center" valign="middle" width="5%">&nbsp;</td>					
 					
 					</tr>
 					</tbody>
 				</table>
 			
-			</div>
+			</div>			
 			
 			
 			<!-- EVENT overall_header_searchbox_before -->
@@ -234,7 +234,7 @@ function marklist(id, name, state)
 			<div id="search-box" class="search-box search-header right" role="search">
 					
 					<table width="100%" cellspacing="0" cellpadding="5" border="0" align="center" class="table1 main_table">
-					<tbody>
+					<tbody>						
 						<tr class="bg1">
 							
 							<td class="table1 responsive-hide" style="text-align:center;"></td>
@@ -262,10 +262,10 @@ function marklist(id, name, state)
 								<span class="responsive-hide">&nbsp;&nbsp;</span>
 							</td>
 							
-							<td class="table1 responsive-hide" align="center" valign="middle" width="5%">&nbsp;</td>
+							<td class="table1 responsive-hide" align="center" valign="middle" width="5%">&nbsp;</td>						
 						
 						</tr>
-					</tbody>
+					</tbody>					
 					</table>
 			</div>
 			<!-- ENDIF -->
@@ -274,23 +274,24 @@ function marklist(id, name, state)
 		
 		</td>
 	</tr>
-	</thead>
+	</thead>	
 		
-	<!-- EVENT overall_header_navbar_before -->
+	<!-- EVENT overall_header_navbar_before -->		
 	<tbody>
 	<div id="page-header" role="navigation">
 
 	<tr id="nav-main" class="nav-main linklist bg2" role="menubar">
-	
-		<td class="genmed" style="width: 5%; text-align: center;">
-		
+				
+		<td class="genmed" style="width: 5%; text-align: center;">	
+							
+		<!-- EVENT overall_header_navigation_prepend -->				
 		<table id="nav-main" class="table1 nav-main linklist" cellspacing="6" cellpadding="2" border="0" role="menubar">
 		<div class="navbar-top" role="navigation">
 		<thead>
-			<div class="inner">
-					<ul id="nav-main" class="nav-main linklist" role="menubar">
+			<div class="inner">						
+					<ul id="nav-main" class="nav-main linklist" role="menubar">						
 					<tr class="bg2"> 
-						<td id="quick-links" align="left" class="quick-links dropdown-container responsive-menu<!-- IF not S_DISPLAY_QUICK_LINKS and not S_DISPLAY_SEARCH --> hidden<!-- ENDIF -->" data-skip-responsive="true" role="menuitem">
+						<td id="quick-links" class="quick-links dropdown-container responsive-menu<!-- IF not S_DISPLAY_QUICK_LINKS and not S_DISPLAY_SEARCH --> hidden<!-- ENDIF -->" data-skip-responsive="true" role="menuitem">
 						
 						<span class="mainmenu dropdown-trigger">
 							<a href="#" class="dropdown-trigger">
@@ -298,13 +299,8 @@ function marklist(id, name, state)
 								<!-- img src="{T_THEME_PATH}/images/nav_forum.gif"  border="0" alt="{L_QUICK_LINKS}" hspace="3" /-->
 								</i>
 							</a>
-						</span>	
-						<span class="mainmenu">
-							<a href="#" title="{L_QUICK_LINKS}" class="mainmenu">
-							<span>{L_QUICK_LINKS} </span>
-							</a>
-						</span>
-						
+						</span>						
+														
 						<div class="dropdown">
 							<div class="pointer"><div class="pointer-inner"></div></div>
 							<ul class="dropdown-contents" role="menu">
@@ -359,7 +355,6 @@ function marklist(id, name, state)
 												<i class="icon fa-group fa-fw" aria-hidden="true"></i><span>{L_MEMBERLIST}</span>
 											</a>
 										</li>
-										
 									<!-- ENDIF -->
 									<!-- IF U_TEAM -->
 										<li>
@@ -377,193 +372,98 @@ function marklist(id, name, state)
 								
 						</td>
 						
-						<!--
 						<td data-last-responsive="true" class="nav-main linklist table1 responsive-hide" role="menubar" height="15" align="center" valign="top"><span class="mainmenu">
-							<span class="mainmenu">
+							<span class="mainmenu">						
 							<a href="{U_INDEX}" title="{L_INDEX}" role="menuitem" class="mainmenu">
-								<i class="icon fa-cloud fa-fw" aria-hidden="true"></i>
-							</a>
+								<img src="{T_THEME_PATH}/images/nav_forum.gif" border="0" alt="{L_FORUM}" hspace="3" />
+							</a>						
 							</span>
 						</td>
-						-->
-						<!--
-						<td data-last-responsive="true" class="table1 forumtitle responsive-hide" height="15" align="center" valign="top">
-							<span class="mainmenu">
-								<a href="{U_INDEX}" title="{L_INDEX}" class="mainmenu">
-								<span>{L_FORUM} </span>
-								</a>
-							</span>
-						</td>
-						 -->
-
-						<td data-last-responsive="true" class="table1 forumtitle" height="15" align="center" valign="top">
+						
+						<td data-last-responsive="true" class="table1" height="15" align="center" valign="top">
 							<span class="mainmenu">
 							<a href="{U_FAQ}" title="{L_FAQ}" role="menuitem" class="mainmenu" height="15" align="center" valign="top">
-								<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i>
+								<img src="{T_THEME_PATH}/images/nav_help.gif" border="0" alt="{L_FAQ}" hspace="3" />
 							</a>
 							</span>
-							<span class="mainmenu">
-								<a href="{U_FAQ}" title="{L_FAQ}" class="mainmenu">
-								<span>{L_FAQ} </span>
-								</a>
-							</span>
 						</td>
-						
-
 						
 						<!-- IF U_ACP -->
-						<td data-last-responsive="true" class="table1 forumtitle responsive-hide" height="15" align="center" valign="top">
-							<span class="mainmenu">
+						<td data-last-responsive="true" class="table1 responsive-hide" height="15" align="center" valign="top">
+							<span class="mainmenu">							
 							<a href="{U_ACP}" title="{L_ACP}" role="menuitem" class="table1" height="15" align="center" valign="top">
-								<i class="icon fa-cogs fa-fw" aria-hidden="true"></i>
+								<img src="{T_THEME_PATH}/images/nav_settings.gif" aria-hidden="true" border="0" alt="{L_ACP_SHORT}" hspace="3" />
 							</a>
-							</span>
-							<span class="mainmenu">
-								<a href="{U_ACP}" title="{L_ACP}" role="menuitem">
-								<span>{L_ACP_SHORT} </span>
-								</a>
-							</span>
+							</span>						
 						</td>
 						<!-- ENDIF -->
-						
 						<!-- IF U_MCP -->
-						<td data-last-responsive="true" class="table1 forumtitle responsive-hide" height="15" align="center" valign="top">
-							<span class="mainmenu">
-								<a href="{U_MCP}" title="{L_MCP}" role="menuitem">
-								<span>{L_MCP_SHORT} </span>
-								</a>
-							</span>
-							<span class="mainmenu">
+						<td data-last-responsive="true" class="table1 responsive-hide" height="15" align="center" valign="top">
+							<span class="mainmenu">							
 							<a href="{U_MCP}" title="{L_MCP}" role="menuitem" class="mainmenu">
-								<i class="icon fa-gavel fa-fw" aria-hidden="true"></i>
+								<img src="{T_THEME_PATH}/images/nav_groups.gif" aria-hidden="true" border="0" alt="{L_MCP_SHORT}" hspace="3" />								
 							</a>
-							</span>
+							</span>						
 						</td>
-						<!-- ENDIF -->
-						
+						<!-- ENDIF -->						
+												
 						<!-- IF S_DISPLAY_SEARCH -->
-						<td data-last-responsive="true" class="table1 forumtitle responsive-hide" height="15" align="center" valign="top">
+						<td data-last-responsive="true" class="table1 responsive-hide" height="15" align="center" valign="top">
 							<span class="mainmenu">
-							<a href="{U_SEARCH}" title="{L_SEARCH}" role="menuitem" class="mainmenu">
-								<i class="icon fa-search fa-fw" aria-hidden="true"></i>
+							<a href="{U_SEARCH}" title="{L_SEARCH}" role="menuitem" class="mainmenu">				
+								<img src="{T_THEME_PATH}/images/nav_search.gif" border="0" alt="{L_SEARCH}" hspace="3" />
 							</a>
-							</span>
-							<span class="mainmenu">
-								<a href="{U_SEARCH}" title="{L_SEARCH}" class="mainmenu">
-								<span>{L_SEARCH} </span>
-								</a>
 							</span>
 						</td>
 						<!-- ENDIF -->
 						<!-- IF not S_IS_BOT -->
 						<!-- IF S_DISPLAY_MEMBERLIST -->
-						<td data-last-responsive="true" class="table1 forumtitle responsive-hide" height="15" align="center" valign="top">
-							<span class="mainmenu">
-							<a href="{U_MEMBERLIST}" title="{L_MEMBERLIST}" role="menuitem" class="mainmenu">
-								<i class="icon fa-group fa-fw" aria-hidden="true"></i>
-							</a>
-							</span>
-							<span class="mainmenu">
-								<a href="{U_MEMBERLIST}" title="{L_MEMBERLIST}" class="mainmenu">
-								<span>{L_MEMBERLIST} </span>
-								</a>
-							</span>
-						</td>
-						<!-- ENDIF -->
-						
-						<!-- IF S_USER_LOGGED_IN -->
-						<td data-last-responsive="true" class="table1 forumtitle genmed" height="15" align="center" valign="top">
-							<span class="mainmenu">
-							<a href="{U_PROFILE}" title="{L_PROFILE}" role="menuitem" class="mainmenu">
-								<i class="icon fa-user-circle-o fa-fw" aria-hidden="true"></i>
-							</a>
-							</span>
-							<span class="mainmenu">
-								<a href="{U_PROFILE}" title="{L_PROFILE}" class="mainmenu">
-								<span>{L_UCP} </span>
-								</a>
-							</span>
-						</td>
-						<!-- ENDIF -->
-						<!-- ENDIF -->
-						<!-- IF S_DISPLAY_PM -->
-						<td data-last-responsive="true" class="table1forumtitle genmed" height="15" align="center" valign="top">
-							<span class="mainmenu">
-							<a href="{U_PRIVATEMSGS}" title="{L_PRIVATE_MESSAGES}" class="mainmenu" role="menuitem">
-								<i class="icon fa-envelope-o fa-fw" aria-hidden="true"></i>
-							</a>
-							</span>
-							<span class="mainmenu">
-								<a href="{U_PRIVATEMSGS}" title="{L_PRIVATE_MESSAGES}" class="mainmenu">
-									<span>{L_PRIVATE_MESSAGES} </span>
-									<strong class="badge<!-- IF not PRIVATE_MESSAGE_COUNT --> hidden<!-- ENDIF -->">
-									{PRIVATE_MESSAGE_COUNT}
-									</strong>
-									<!-- IF PRIVATE_MESSAGE_INFO_UNREAD -->, {PRIVATE_MESSAGE_INFO_UNREAD}<!-- ENDIF -->
-								</a>
-							</span>
-						</td>
-						<!-- ENDIF -->
-						
-						<!-- IF not S_IS_BOT -->	
-						<!-- IF S_USER_LOGGED_OUT -->
-						<td data-last-responsive="true" class="table1 forumtitle genmed responsive-hide" height="15" align="center" valign="top">
-							<span class="mainmenu">
-							<a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" class="mainmenu" role="menuitem">
-								<i class="icon fa-power-on fa-fw" aria-hidden="true"></i>
-							</a>
-							</span>
-							<span class="mainmenu">
-								<a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" class="mainmenu">
-								<span>{L_LOGIN_LOGOUT}&nbsp; </span>
-								</a>
-							</span>
-							<span class="mainmenu">
-								<a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" class="mainmenu" role="menuitem">
-								<i class="icon fa-power-off fa-fw" aria-hidden="true"></i>
-							</a>
-							</span>
-						</td>
-						<!-- ENDIF -->
-						<!-- ENDIF -->
-						
-						<!-- IF S_USER_LOGGED_OUT -->
 						<td data-last-responsive="true" class="table1 responsive-hide" height="15" align="center" valign="top">
 							<span class="mainmenu">
-							<a href="{U_REGISTER}" title="{L_REGISTER}" class="mainmenu" role="menuitem">
-								<i class="icon fa-pencil-square-o  fa-fw" aria-hidden="true"></i>
+							<a href="{U_MEMBERLIST}" title="{L_MEMBERLIST}" role="menuitem" class="mainmenu">								
+								<img src="{T_THEME_PATH}/images/nav_members.gif" border="0" alt="{L_MEMBERLIST}" hspace="3" />
 							</a>
 							</span>
+						</td>
+						<!-- ENDIF -->
+						<!-- IF S_USER_LOGGED_IN -->
+						<td data-last-responsive="true" class="table1" height="15" align="center" valign="top">
 							<span class="mainmenu">
-								<a href="{U_REGISTER}" title="{L_REGISTER}" class="mainmenu">
-								<span>{L_REGISTER} </span>
-								</a>
+							<a href="{U_PROFILE}" title="{L_PROFILE}" role="menuitem" class="mainmenu">
+								<img src="{T_THEME_PATH}/images/nav_profile.gif" border="0" alt="{L_PROFILE}" hspace="3" />
+							</a>
+							</span>
+						</td>
+						<!-- ENDIF -->
+						<!-- ENDIF -->						
+						<!-- IF S_DISPLAY_PM -->
+						<td data-last-responsive="true" class="table1" height="15" align="center" valign="top">
+							<span class="mainmenu">
+							<a href="{U_PRIVATEMSGS}" title="{L_PRIVATE_MESSAGES}" class="mainmenu" role="menuitem">
+								<img src="{T_THEME_PATH}/images/nav_email.gif" border="0" alt="{PRIVATE_MESSAGE_INFO}" hspace="3" />
+							</a>
+							</span>
+						</td>						
+						<!-- ENDIF -->
+						<!-- IF not S_IS_BOT -->						
+						<td data-last-responsive="true" class="table1 responsive-hide" height="15" align="center" valign="top">
+							<span class="mainmenu">
+							<a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" class="mainmenu" role="menuitem">
+								<img src="{T_THEME_PATH}/images/nav_login.gif" border="0" alt="{L_LOGIN_LOGOUT}" hspace="3" />
+							</a>							
+							</span>
+						</td>
+						<!-- ENDIF -->
+						<!-- IF S_USER_LOGGED_OUT -->
+						<td data-last-responsive="true" class="table1 responsive-hide" height="15" align="center" valign="top">
+							<span class="mainmenu">							
+							<a href="{U_REGISTER}" title="{L_REGISTER}" class="mainmenu" role="menuitem">
+								<img src="{T_THEME_PATH}/images/nav_register.gif" border="0" alt="{L_REGISTER}" hspace="3" />
+							</a>
 							</span>
 						</td>
 						&nbsp;
 						<!-- ENDIF -->
-						<!-- EVENT navbar_header_user_profile_append -->
-						<!-- IF S_REGISTERED_USER -->
-						<td data-last-responsive="true" class="forumtitle genmed" height="15" align="right" valign="top">	
-
-						<!-- IF S_NOTIFICATIONS_DISPLAY -->
-							<div class="dropdown-container dropdown-{S_CONTENT_FLOW_END} rightside" data-skip-responsive="true">
-								<span class="mainmenu">
-								<a href="{U_VIEW_ALL_NOTIFICATIONS}" id="notification_list_button" class="dropdown-trigger">
-									<i class="icon fa-bell fa-fw" aria-hidden="true"></i>
-									<span>{L_NOTIFICATIONS} </span>
-									<strong class="badge<!-- IF not NOTIFICATIONS_COUNT --> hidden<!-- ENDIF -->">
-									{NOTIFICATIONS_COUNT}
-									</strong>
-								</a>
-								</span>
-								<!-- INCLUDE notification_dropdown.html -->
-							</div>
-						<!-- ENDIF -->
-
-						</td>	
-						<!-- ENDIF -->
-						
 	<!-- IF S_REGISTERED_USER -->
 						<td data-last-responsive="true" class="forumtitle genmed" height="15" align="center" valign="top">	
 		<!-- EVENT navbar_header_user_profile_prepend -->
@@ -623,38 +523,166 @@ function marklist(id, name, state)
 			</div>
 		<!-- ENDIF -->
 		<!-- EVENT navbar_header_logged_out_content -->
-			</td>	
-	<!-- ENDIF -->
+						</td>		
+	<!-- ENDIF -->							
 					</tr>
 					</ul>
-			</div>
-			
+			</div>					
 					</thead>
-		</div>
-					<tbody>
+		</div>					
+					<tbody>				
 					<tr class="bg2">
-		<!-- EVENT overall_header_navigation_prepend -->
-
-		<!-- EVENT overall_header_navigation_append -->
-						<!-- IF not S_IS_BOT -->
+						<td data-last-responsive="true" class="table1 genmed" height="15" align="center" valign="top">
+							<span class="mainmenu">
+								<a href="#" title="{L_QUICK_LINKS}" class="mainmenu">
+								<span>{L_QUICK_LINKS} </span>
+								</a>
+							</span>
+						</td>					
+						
+						<td data-last-responsive="true" class="table1 forumtitle responsive-hide" height="15" align="center" valign="top">
+							<span class="mainmenu">
+								<a href="{U_INDEX}" title="{L_INDEX}" class="mainmenu">
+								<span>{L_FORUM} </span>
+								</a>
+							</span>
+						</td>
+						
+						<td data-last-responsive="true" class="table1 forumtitle" height="15" align="center" valign="top">
+							<span class="mainmenu">
+								<a href="{U_FAQ}" title="{L_FAQ}" class="mainmenu">
+								<span>{L_FAQ} </span>
+								</a>
+							</span>
+						</td>
+						
+						<!-- IF U_ACP -->
+						<td data-last-responsive="true" class="table1 forumtitle responsive-hide" height="15" align="center" valign="top">
+							<span class="mainmenu">							
+								<a href="{U_ACP}" title="{L_ACP}" role="menuitem">
+								<span>{L_ACP_SHORT} </span>
+								</a>
+							</span>						
+						</td>
 						<!-- ENDIF -->
-					</tr>
-					<tr class="bg2">
-						<td data-last-responsive="true" class="forumtitle genmed" align="{S_CONTENT_FLOW_END}"
+						<!-- IF U_MCP -->
+						<td data-last-responsive="true" class="table1 forumtitle responsive-hide" height="15" align="center" valign="top">
+							<span class="mainmenu">							
+								<a href="{U_MCP}" title="{L_MCP}" role="menuitem">
+								<span>{L_MCP_SHORT} </span>
+								</a>
+							</span>						
+						</td>
+						<!-- ENDIF -->						
+						
+						<!-- IF S_DISPLAY_SEARCH -->						
+						<td data-last-responsive="true" class="forumtitle responsive-hide" height="15" align="center" valign="top">
+							<span class="mainmenu">
+								<a href="{U_SEARCH}" title="{L_SEARCH}" class="mainmenu">
+								<span>{L_SEARCH} </span>
+								</a>
+							</span>
+						</td>
+						<!-- ENDIF -->
+						
+						<!-- IF not S_IS_BOT -->
+						
+						<!-- IF S_DISPLAY_MEMBERLIST -->
+						<td data-last-responsive="true" class="forumtitle responsive-hide" height="15" align="center" valign="top">
+							<span class="mainmenu">
+								<a href="{U_MEMBERLIST}" title="{L_MEMBERLIST}" class="mainmenu">
+								<span>{L_MEMBERLIST} </span>
+								</a>
+							</span>
+						</td>
+						<!-- ENDIF -->
+						
+						<!-- IF S_USER_LOGGED_IN -->
+						<td data-last-responsive="true" class="forumtitle genmed" height="15" align="center" valign="top">
+							<span class="mainmenu">
+								<a href="{U_PROFILE}" title="{L_PROFILE}" class="mainmenu">
+								<span>{L_UCP} </span>
+								</a>
+							</span>
+						</td>
+						<!-- ENDIF -->	
+						
+						<!-- ENDIF -->						
+						
+						<!-- IF S_DISPLAY_PM -->
+						<td data-last-responsive="true"class="forumtitle genmed" height="15" align="center" valign="top">
+							<span class="mainmenu">
+								<a href="{U_PRIVATEMSGS}" title="{L_PRIVATE_MESSAGES}" class="mainmenu">
+									<span>{L_PRIVATE_MESSAGES} </span>
+									<strong class="badge<!-- IF not PRIVATE_MESSAGE_COUNT --> hidden<!-- ENDIF -->">
+									{PRIVATE_MESSAGE_COUNT}
+									</strong>
+									<!-- IF PRIVATE_MESSAGE_INFO_UNREAD -->, {PRIVATE_MESSAGE_INFO_UNREAD}<!-- ENDIF -->
+								</a>
+							</span>
+						</td>
+						<!-- ENDIF -->
+						
+						<!-- IF not S_IS_BOT -->						
+						<td data-last-responsive="true" class="forumtitle genmed responsive-hide" height="15" align="center" valign="top">
+							<span class="mainmenu">
+								<a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" class="mainmenu">
+								<span>{L_LOGIN_LOGOUT}&nbsp; </span>
+								</a>
+							</span>
+						</td>
+						<!-- ENDIF -->
+						
+						<!-- IF S_USER_LOGGED_OUT -->
+						<td data-last-responsive="true" class="forumtitle genmed responsive-hide" height="15" align="center" valign="top">
+						<span class="mainmenu">						
+							<a href="{U_REGISTER}" title="{L_REGISTER}" class="mainmenu">
+							<span>{L_REGISTER} </span>
+							</a>
+						</span>
+						</td>
+						<!-- ENDIF -->
+	
+						<!-- IF S_REGISTERED_USER -->
+						<td data-last-responsive="true" class="forumtitle genmed" height="15" align="center" valign="top">	
+
+						<!-- IF S_NOTIFICATIONS_DISPLAY -->
+							<div class="dropdown-container dropdown-{S_CONTENT_FLOW_END} rightside" data-skip-responsive="true">
+								<span class="mainmenu">
+								<a href="{U_VIEW_ALL_NOTIFICATIONS}" id="notification_list_button" class="dropdown-trigger">
+									<i class="icon fa-bell fa-fw" aria-hidden="true"></i>
+									<span>{L_NOTIFICATIONS} </span>
+									<strong class="badge<!-- IF not NOTIFICATIONS_COUNT --> hidden<!-- ENDIF -->">
+									{NOTIFICATIONS_COUNT}
+									</strong>
+								</a>
+								</span>
+								<!-- INCLUDE notification_dropdown.html -->
+							</div>
+						<!-- ENDIF -->
+						<!-- EVENT navbar_header_user_profile_append -->						
+						
+						</td>		
+						<!-- ENDIF -->						
+
+						</tr>
+					<tr class="bg2"> 					
+						<td data-last-responsive="true" class="forumtitle genmed" align="{S_CONTENT_FLOW_END}">					
 						<!-- IF S_BOARD_DISABLED and S_USER_LOGGED_IN --> &nbsp;<span style="color: red;">{L_BOARD_DISABLED}</span><!-- ENDIF -->							
 						</td>	
-					</tr>
+					</tr>					
 					</tbody>
 					
 				</table>
-			
+			<!-- EVENT overall_header_navigation_append -->					
+				
 		</td>	
 	</tr>
 	
-	</div>
+	</div>	
 	</tbody>
-	<!-- EVENT overall_header_navbar_after -->
-</table>
+	<!-- EVENT overall_header_navbar_after -->	
+</table>								
 
 	<div id="datebar">
 		<table width="100%" cellspacing="0">
